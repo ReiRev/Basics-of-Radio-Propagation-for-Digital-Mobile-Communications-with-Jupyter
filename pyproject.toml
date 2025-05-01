@@ -1,0 +1,27 @@
+[project]
+name = "radio-propagation-sionna"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ReiRev"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.0.1,<7.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "scipy (>=1.15.2,<2.0.0)",
+    "black[jupyter] (>=25.1.0,<26.0.0)",
+    "sionna (>=1.0.2,<2.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
